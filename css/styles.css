@@ -686,7 +686,7 @@ color: #2E2F42;
     margin-bottom: 8px;
     transition: border-color var(--main-transition), color var(--main-transition);
 }
-..modal-field:focus{
+.modal-field:focus{
     border-color: #4D5AE5;
     color: #4D5AE5;
 }
@@ -744,6 +744,7 @@ font-weight: 400;
 font-size: 12px;
 line-height: 14px;
 padding-top: 8px;
+margin-bottom: 16px;
 resize: none;
 outline: transparent;
 transition: border-color var(--main-transition) ;
@@ -751,6 +752,7 @@ transition: border-color var(--main-transition) ;
 .modal-textarea:focus{
     border-color: #4D5AE5;
 }
+
 .check-text{
     font-style: normal;
 font-weight: 400;
