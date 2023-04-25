@@ -293,7 +293,21 @@
                     </li>    
                 </ul>
             </div>
+       
+        <div class="footer-subscribe">
+            <p class="subscribe-text">Subscribe</p>
+            <form class="subscribe-form">
+                <input class="subscribe-email" type="email" name="email" name="email" placeholder="E-mail">
+                <button type="submit" class="subscribe-button">
+                    <span class="subscribe-button-text">Subscribe
+                        <svg class="subscribe-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-Frame-3-1"></use>
+                        </svg>
+                </span>
+                </button>
+            </form>
         </div>
+    </div>
             </footer>
             <div class="backdrop is-hidden" data-modal>
              <div class="modal">
@@ -302,6 +316,45 @@
                         <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
                     </svg>
                 </button>
+                <p class="modal-tittle">Leave your contacts and we will call you back</p>
+                <form class="modal-form">
+                    <div class="modal-field">
+                    <label for="user-name" class="input-text">Name</label>
+                    <div class="input-wrap">
+                    <input type="text" name="user-name" id="user-name" class="modal-input">
+                    <svg class="modal-icon" width="18px" height="18px">
+                        <use href="./images/icons.svg#icon-person-black-18dp-1-1"></use>
+                    </svg>
+                </div>
+                </div>
+                <div>
+                <label for="user-tel" class="input-text">Phone</label>
+                <div class="input-wrap">
+                    <input type="tel" name="user-tel" id="user-tel" class="modal-input">
+                <svg class="modal-icon" width="18px" height="18px">
+                    <use href="./images/icons.svg#icon-phone-black-18dp-1-1"></use>
+                </svg>
+                </div>
+                </div>
+                <div>
+                    <label for="user-email" class="input-text">Email</label>
+                <div class="input-wrap">    
+                <input type="email" name="user-email" id="user-email" class="modal-input">
+            <svg class="modal-icon" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-email-black-18dp-1-1"></use>
+            </svg>
+            </div>
+            </div>    
+               <div> 
+                <label for="user-coment" class="input-text">Comment</label>
+                <textarea name="user-coment" id="user-coment" class="modal-textarea" placeholder="Text input"></textarea>
+                  </div>
+                  <div class="modal-field">
+                    <input type="checkbox" name="privacy" id="privacy" value="tru" class="input-check visually-hidden">
+                  <label for="privacy" class="check-text">I accept the terms and conditions of the &nbsp;<a href="" class="check-last-text">Privacy Policy</a> </label>                  
+                  </div>     
+            <button class="modal-send" type="submit">Send</button>
+                </form>
              </div>   
             </div>
             <script src="./js/modal.js"></script>
